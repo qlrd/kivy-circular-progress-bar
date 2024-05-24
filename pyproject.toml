@@ -1,6 +1,24 @@
-[build-system]
-requires = [
-    "setuptools>=42",
-    "wheel"
+[project]
+name = "kivy_circular_progress_bar"
+authors = [
+    { name = "Kacper Florianski"}
 ]
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.9, <3.13"
+keywords = ["kivy", "progress-bar"]
+license = { text = "MIT"}
+classifiers = [
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "kivy >= 2.3.0"
+]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
