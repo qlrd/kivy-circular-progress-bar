@@ -1,7 +1,10 @@
 # Circular Progress Bar
 
-This repository provides an implementation of a circular progress bar for the Python [kivy](https://kivy.org/#home)
+This repository provides a fork of [original implementation](https://github.com/TheCodeSummoner/kivy-circular-progress-bar)
+of circular progress bar for the Python [kivy](https://kivy.org/#home)
 GUI tool. Please refer to the in-code documentation or follow this *README* document to learn about the widget.
+
+This fork add some python setup configuration to be easily installed by tools like poetry or pip.
 
 ## Usage
 
